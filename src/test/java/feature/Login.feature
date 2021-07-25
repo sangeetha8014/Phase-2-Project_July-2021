@@ -2,7 +2,7 @@
 Feature: Login Feature
   Description: This feature will be used to login to SawagLabs application
 
-  @PositiveLogin @Sanity
+  @PositiveLogin 
   Scenario Outline: Verify that when user enters correct user name and password they should be able to login successfully
     Given User has opened the SawagLabs applications
     When User enters username "<UserName>"
